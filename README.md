@@ -1,4 +1,8 @@
 # Practica04-PHP
+![repo](https://user-images.githubusercontent.com/47094533/100560185-07544580-3283-11eb-833f-6cffc2a4f262.JPG)
+
+![usuarios](https://user-images.githubusercontent.com/47094533/100560203-20f58d00-3283-11eb-89ff-4d479b1a27c6.JPG)
+
 - **¿Qué realiza la sentencia include en PHP?**
 
 La sentencia include, incluye y evalua el archivo especiado, en este caso llama el archivo conexionBD.php
@@ -14,6 +18,8 @@ Es un método para enviar y recibir información o datos.
 - **¿Qué hace la función isset()?**
 
 Determina si una variable esta definida y no es null.
+
+![iniciar_sesion](https://user-images.githubusercontent.com/47094533/100560257-45516980-3283-11eb-9a9a-0eaf39e9d162.JPG)
 
 ![](RackMultipart20201130-4-n5zv8y_html_1b32246fcdd6345e.png)
 
@@ -46,6 +52,8 @@ Por qué pertenece al campo `usu_codigo` int(11) NOT NULL AUTO\_INCREMENT de la 
 - **¿Cuál es el error 1062 en mysql?**
 
 Este error se puede deber a que el índice de dicha columna está definido como &#39;UNIQUE&#39;. Tienes que cambiarlo a &#39;INDEX&#39;.
+
+![tabla](https://user-images.githubusercontent.com/47094533/100560282-569a7600-3283-11eb-9498-a40f9b7dd567.JPG)
 
 - **¿Por qué los dos últimos valores de la sentencia SQL son null?**
 
@@ -90,6 +98,8 @@ Los datos se alteran, acabando en Ã¡Ã³Ã± y cosas parecidas., por ello todo
 - **Qué realiza la función session\_start()?**
 
 Iniciar una nueva sesión o reanudar la existente. Crea una sesión o reanuda la actual basada en un identificador de sesión pasado mediante una petición GET o POST, o pasado mediante una cookie.
+
+![contrasena](https://user-images.githubusercontent.com/47094533/100560313-6b770980-3283-11eb-98ae-f02a4c46e38f.JPG)
 
 ![](RackMultipart20201130-4-n5zv8y_html_15cb1f062cc408d0.png)
 
@@ -162,6 +172,8 @@ Establece la zona horaria predeterminada usada por todas las funciones de fecha/
 Dar formato a la fecha/hora local.
  Devuelve una cadena formateada según el formato dado usando el parámetro de tipo integer timestamp dado o el momento actual si no se da una marca de tiempo. En otras palabras, timestamp es opcional y por defecto es el valor de time().
 
+![index](https://user-images.githubusercontent.com/47094533/100560336-834e8d80-3283-11eb-92ea-a95fa91ab61c.JPG)
+
 ![](RackMultipart20201130-4-n5zv8y_html_7dc740bf7cda5756.png)
 
 - **¿Qué hace la función time?**
@@ -175,3 +187,19 @@ Devuelve la fecha Unix actual.
 
 
 Un array asociativo de variables pasado al script actual vía parámetros URL (también conocida como cadena de consulta). Tenga en cuenta que el array no solo se rellena para las solicitudes GET, sino para todas las solicitudes con una cadena de consulta.
+
+![buscar](https://user-images.githubusercontent.com/47094533/100560372-97928a80-3283-11eb-8f2e-b3c760e44da2.JPG)
+
+![modificar](https://user-images.githubusercontent.com/47094533/100560400-a8db9700-3283-11eb-9183-d4c709c3a361.JPG)
+
+- En el informe se debe incluir la información de GitHub (usuario y URL del repositorio de lapráctica)
+
+**Usuario:** BryanAndresMendezTenecora
+
+**URL:** [https://github.com/BryanAndresMendezTenecora/Practica04-PHP.git](https://github.com/BryanAndresMendezTenecora/Practica04-PHP.git)
+
+**Conclusion:**
+
+PHP es una de las herramientas mas poderosas para la creación de páginas web, ya sea por su facilidad y sus amplias opciones de edición a necesidades de muchos otros programadores de un lenguaje rápido
+
+![firma](https://user-images.githubusercontent.com/47094533/100560572-3b7c3600-3284-11eb-8234-1232f4460044.JPG)
