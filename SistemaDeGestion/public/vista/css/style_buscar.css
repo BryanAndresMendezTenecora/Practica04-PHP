@@ -1,0 +1,21 @@
+#cuerpo{
+    background-image: url(../fondo-gris.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input#cedula:focus{
+    font-weight: bold;
+}
+input#buscar{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#titulo{
+    text-align: center;
+    font-weight: bold;
+    background-color: yellow;
+}
