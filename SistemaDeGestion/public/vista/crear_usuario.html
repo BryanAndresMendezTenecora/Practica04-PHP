@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style_crear_usuario.css">
+        <title>Creacion de Usuario</title>
+    </head>
+    <body id="cuerpo">
+        <div class="titulo">
+            <h3 class="tit">Creación de usuarios nuevos</h3>
+        </div>
+        <form id="formulario01" method="POST" action="../controladores/crear_usuario.php">
+            <label for="cedula">&#8226; Cedula:</label>
+            <input type="text" id="cedula" name="cedula" value="" placeholder="Ingrese la cedula" required>
+            <br>
+            <label for="nombres">&#8226; Nombre:</label>
+            <input type="text" id="nombres" name="nombres" value="" placeholder="Ingrese el nombre" required>
+            <br>
+            <label for="apellidos">&#8226; Apellido:</label>
+            <input type="text" id="apellidos" name="apellidos" value="" placeholder="Ingrese el apellido" required>
+            <br>
+            <label for="direccion">&#8226; Direccion:</label>
+            <input type="text" id="direccion" name="direccion" value="" placeholder="Ingrese la Direccion" required>
+            <br>
+            <label for="telefono">&#8226; Telefono:</label>
+            <input type="text" id="telefono" name="telefono" value="" placeholder="Ingrese el Telefono" required>
+            <br>
+            <label for="fechaNacimiento">&#8226; Fecha de Nacimiento:</label>
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento" value=""  required>
+            <br>
+            <label for="correo">&#8226; Email:</label>
+            <input type="email" id="correo" name="correo" value="" placeholder="Ingrese el correo" required>
+            <br>
+            <label for="contrasena">&#8226; Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" value="" placeholder="Ingrese la contraseña" required>
+            <br>
+            <input type="submit" id="crear" name="crear" value="Aceptar">
+            <input type="reset" id="cancelar" name="cancelar" value="Cancelar">
+        </form>
+    </body>
+</html>
