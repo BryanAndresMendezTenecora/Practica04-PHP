@@ -1,0 +1,33 @@
+
+body{
+    background-image: url(../fondo-gris.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#cabecera{
+    clear: both;
+}
+.menu{
+    border: 1px solid black;
+    float: left;
+    width: 15%;   
+}
+
+.titulo_menu{
+    background-color: gray;
+    color: white;
+}
+
+.titulo_2{
+    text-align: center;
+    background-color: yellow;
+}
+.tabla{
+    clear: both;
+}
+table, tr, th,td{
+    border: 1px solid black;
+}
